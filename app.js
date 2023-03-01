@@ -828,37 +828,3 @@ function checkCapture(position) {
   // se não tiver nenhuma peça adversária na frente da peça, retorne false
   return false;
 }
-
-/*
-    
-      // crie uma matriz bidimensional com a posição de todas as peças
-      // dica: as casas do tabuleiro são td, e as peças são div
-      var matriz = [];
-      for (var i = 0; i < 8; i++) {
-        matriz[i] = [];
-        for (var j = 0; j < 8; j++) {
-          matriz[i][j] = 0;
-        }
-      }
-      for (var i = 0; i < cells.length; i++) {
-        if (cells[i].children.length > 0) {
-          var position = cells[i].getAttribute("data-position").split(",");
-          // salve a peça na matriz com 1 ou 0
-          matriz[position[0]][position[1]] = cells[
-            i
-          ].children[0].classList.contains("black")
-            ? 1
-            : 2;
-        }
-      }
-      // chame a função gerarTabuleiro passando a matriz como parâmetro
-      gerarTabuleiro(matriz);
-
-      // verifique se a peça na nova posição pode capturar alguma peça adversária
-      // dica: chame a função checkCapture
-      //checkCapture(this.getAttribute("data-position"), this.children[0]);
-      // alterne a vez
-      //vez = vez == 1 ? 2 : 1;
-    };
-  }
-}*/
