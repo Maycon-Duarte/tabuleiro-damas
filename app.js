@@ -1,5 +1,5 @@
 // crie uma variavel para indicar de quem é a vez
-var vez = 1;
+var vez = 2;
 
 // variavel com as posições iniciais do tabuleiro
 var board = [
