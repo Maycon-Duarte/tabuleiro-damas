@@ -1,0 +1,48 @@
+#board {
+    border-collapse: collapse;
+}
+
+#board tr{
+    display: flex;
+}
+
+#board td {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.piece {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.piece.black {
+    background-color: #333;
+}
+
+.piece.white {
+    background-color: #eee;
+}
+
+.piece.black.king {
+    border: 3px solid #ff0;
+}
+
+.piece.white.king {
+    border: 3px solid #f00;
+}
+
+.dark {
+    background-color: #663300;
+}
+
+.light {
+    background-color: #ffcc66;
+}
+
+.selected {
+    background-color: #f00;
+}
